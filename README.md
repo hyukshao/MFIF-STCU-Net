@@ -28,6 +28,19 @@ You are very welcome to conduct results comparison with our method. The fusion r
 
 ## Citing Multi-focus image fusion based on transformer and depth information learning
 If you find this work useful for your research, please cite our [paper]():
+@article{SHAO2024109629,
+title = {Multi-focus image fusion based on transformer and depth information learning},
+journal = {Computers and Electrical Engineering},
+volume = {119},
+pages = {109629},
+year = {2024},
+issn = {0045-7906},
+doi = {https://doi.org/10.1016/j.compeleceng.2024.109629},
+url = {https://www.sciencedirect.com/science/article/pii/S0045790624005561},
+author = {Xinfeng Shao and Xin Jin and Qian Jiang and Shengfa Miao and Puming Wang and Xing Chu},
+keywords = {Multi-focus image fusion, Transformer, U-net, Deep learning, Depth information},
+abstract = {According to the imaging principle of the camera, the focusing and defocusing parts of the image are often determined by the depth information in the real scene. Only objects within a certain depth can present a clear appearance in the captured image, while objects outside the depth often become blurry. Thus, a single camera cannot clearly present enough visual information for automatic driving systems, but multi-sensor image fusion can produce comprehensive information for vehicles to improve its ability of traffic environment perception. In this work, we first use the depth estimation model and the α-matte model to create a simulated multi-focus image dataset based on the focus characteristics. Second, we combine Transformer and convolution neural networks to respectively extract global and local information in image processing tasks. Thus, a novel deep learning network architecture for multi-focus image fusion is proposed in this work. Our network named STCU-Net is based on U-Net and designed with Transformer and convolution neural networks. Qualitative and quantitative evaluations have confirmed the superiority of the proposed method compared to state-of-the-art methods. The code is available at https://github.com/hyukshao/MFIF-STCU-Net.}
+}
 ```
 
 
